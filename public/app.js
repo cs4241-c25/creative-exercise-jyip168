@@ -52,20 +52,20 @@ function drawPolygon3() {
     const canvas = document.getElementById("canvas3");
     const ctx = canvas.getContext("2d");
 
-    ctx.beginPath();
+    ctx.shadowColor="lightgray";
+    ctx.shadowOffsetX = 15;
+    ctx.shadowOffsetY = 15;
 
-// Set start-point
-    ctx.moveTo(20,20);
+    ctx.fillStyle = "red";
+    ctx.fillRect(140, 40, 80, 80);
+    ctx.stroke();
 
-// Set sub-points
-    ctx.lineTo(100,20);
-    ctx.lineTo(175,100);
-    ctx.lineTo(20,100);
+    ctx.fillStyle = "green";
+    ctx.fillRect(180, 80, 50, 50);
+    ctx.stroke();
 
-// Set end-point
-    ctx.lineTo(20,20);
-
-// Stroke it (do the drawing)
+    ctx.fillStyle = "blue";
+    ctx.fillRect(215, 115, 20, 20);
     ctx.stroke();
 }
 
