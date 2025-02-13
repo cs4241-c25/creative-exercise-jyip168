@@ -34,11 +34,10 @@ Sample Readme (delete the above when you're ready to submit, and modify the belo
 1. https://www.w3schools.com/graphics/canvas_gradients.asp, https://www.w3schools.com/graphics/canvas_rectangles.asp
 2. https://www.w3schools.com/graphics/canvas_circles.asp, https://www.w3schools.com/jsref/canvas_rotate.asp
 3. .
-4. .
+4. https://www.w3schools.com/graphics/canvas_circles.asp, https://www.w3schools.com/graphics/canvas_rectangles.asp
 - include a link to the example(s) that you based your code. If your code is completely original and not based on an example, mention that.
 
 **Explanation:**
-- if your code is based on an example, state what changes you made. Otherwise describe what your program does.
-
-
-Example:
+- The program is a website with four canvases and four buttons. Hitting each of the buttons generates a series of polygons on the canvas.
+- The website takes mashed together code lines from the w3schools example site (like for rectangles, gradients, etc.) with values and locations
+changed.

@@ -73,24 +73,20 @@ function drawPolygon4() {
     const canvas = document.getElementById("canvas4");
     const ctx = canvas.getContext("2d");
 
-// Red rectangle
+
     ctx.beginPath();
-    ctx.lineWidth = "6";
-    ctx.strokeStyle = "red";
-    ctx.rect(5, 5, 290, 140);
+    ctx.lineWidth = 4;
+    ctx.strokeRect(50, 50, 75, 75);
     ctx.stroke();
 
-// Green rectangle
     ctx.beginPath();
-    ctx.lineWidth = "4";
-    ctx.strokeStyle = "green";
-    ctx.rect(30, 30, 50, 50);
+    ctx.lineWidth = 2;
+    ctx.fillStyle = "yellow";
+    ctx.fillRect(50, 50, 75, 75);
     ctx.stroke();
 
-// Blue rectangle
-    ctx.beginPath();
-    ctx.lineWidth = "10";
-    ctx.strokeStyle = "blue";
-    ctx.rect(50, 50, 150, 80);
+    ctx.arc(50 + 75/2, 50 + 75/2, 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "white";
+    ctx.fill();
     ctx.stroke();
 }
