@@ -7,20 +7,8 @@ Requirements
 ---
 Explore one of the four sites below or another Javascript/Typescript multimedia site of your choice. Take one of their examples, make a slight modification and get it to work using a simple back-end server (node.js, Express, NextJS) that serves just that example page(s). You may work with your teammates but each person has to create their own pages and their own unique code. The following lists some possibilities.
 
-### SVG
- - Go through the [W3 Schools SVG Tutorial](https://www.w3schools.com/graphics/svg_intro.asp). Implement a web page that draws several different polygons in different colors using Canvas - the <canvas> tag. One of the polygons should include a color gradient. Create a button that when pressed changes either the size and/or position of a polygon. See [SVG Scripting](https://www.w3schools.com/graphics/svg_scripting.asp).
- - Add a simple animated SVG image to a web page. You may want to refer to [Add Animated SVGs to React](https://www.svgator.com/help/getting-started/add-animated-svgs-to-react-website)
 ### Canvas
 - Go through the [W3 Schools Canvas Tutorial](https://www.w3schools.com/graphics/canvas_intro.asp). Implement a web page that draws text and several different polygons in different colors using Canvas - the <canvas> tag. One of the drawn items should include a color gradient.
-### D3.js
-- Create a single visualization using one of the techniques shown at [d3js.org](d3js.org). 
-- Create a visualization using the one of the datasets found at [Awesome JSON Datasets](https://github.com/jdorfman/Awesome-JSON-Datasets).
-### Web Audio API
-- Create a screen-based musical instrument using the Web Audio API. You can use projects such as [Interface.js](http://charlie-roberts.com/interface/) or [Nexus UI](https://nexus-js.github.io/ui/api/#Piano) to provide common musical interface elements, or use dat.GUI in combination with mouse/touch events (use the Pointer Events API). If you want to use higher-level instruments instead of the raw WebAudio API sounds, consider trying the instruments provided by [Tone.js]() or [Gibber](https://github.com/charlieroberts/gibber.audio.lib).
-### Three.js
-- A generative algorithm creates simple agents that move through a virtual world. 
-- A simple 3D game. You really want this to be super simple or it will be outside the scope of this exercise.
-- An 3D audio visualization of a song of your choosing.
 
 Deliverables
 ---
@@ -35,7 +23,22 @@ Sample Readme (delete the above when you're ready to submit, and modify the belo
 ---
 
 ## Your Web Application Title
+
+**Hosting Link:**
 - your hosting link e.g. http://creative-exercise-githubname.glitch.me
-- list which topic/site you chose to do (Canvas, SVG, D3, Web Audio API, Three.js)
+
+**Topic:**
+- Canvas
+
+**Example:**
+1. https://www.w3schools.com/graphics/canvas_gradients.asp, https://www.w3schools.com/graphics/canvas_rectangles.asp
+2. https://www.w3schools.com/graphics/canvas_circles.asp, https://www.w3schools.com/jsref/canvas_rotate.asp
+3. .
+4. .
 - include a link to the example(s) that you based your code. If your code is completely original and not based on an example, mention that.
+
+**Explanation:**
 - if your code is based on an example, state what changes you made. Otherwise describe what your program does.
+
+
+Example:
