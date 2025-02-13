@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
             <script src="/app.js"></script>
         </head>
         <body>
-            <h1>Multiples Canvases</h1>
+            <h1>Multiple Canvases</h1>
             <div>
                 <canvas id="canvas1" width="400" height="400"></canvas>
                 <button onClick="drawPolygon1()">Create A</button>
